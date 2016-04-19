@@ -5,7 +5,12 @@ class IndexController extends Saffron_AbstractController
 
 	public function indexAction()
 	{
-		$this->view->headTitle('Hello World');
+		$mlbs = new Saffron_Model_Mlb();
+
+		$games = $mlbs->retrieveMlbs();
+		$this->view->assign('mlbs', $games);
+
+		$this->view->headTitle('Sport data');
 	}
 
 }

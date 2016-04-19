@@ -1,0 +1,69 @@
+2016-04-19T16:21:31+00:00 NOTICE (5): Page not found
+2016-04-19T16:21:31+00:00 NOTICE (5): Invalid controller specified (favicon.ico)
+2016-04-19T16:21:31+00:00 NOTICE (5): #0 /vagrant/cms2cms/sport/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#1 /vagrant/cms2cms/sport/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#2 /vagrant/cms2cms/sport/init.php(34): Zend_Application_Bootstrap_Bootstrap->run()
+#3 /vagrant/cms2cms/sport/public/index.php(3): Application::run()
+#4 {main}
+2016-04-19T16:21:31+00:00 NOTICE (5): array (
+  'controller' => 'favicon.ico',
+  'action' => 'index',
+  'module' => 'default',
+)
+2016-04-19T16:38:33+00:00 CRIT (2): Application error
+2016-04-19T16:38:34+00:00 CRIT (2): No entry is registered for key 'config'
+2016-04-19T16:38:34+00:00 CRIT (2): #0 /vagrant/cms2cms/sport/application/modules/default/controllers/IndexController.php(8): Zend_Registry::get('config')
+#1 /vagrant/cms2cms/sport/library/Zend/Controller/Action.php(516): IndexController->indexAction()
+#2 /vagrant/cms2cms/sport/library/Zend/Controller/Dispatcher/Standard.php(308): Zend_Controller_Action->dispatch('indexAction')
+#3 /vagrant/cms2cms/sport/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#4 /vagrant/cms2cms/sport/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#5 /vagrant/cms2cms/sport/init.php(34): Zend_Application_Bootstrap_Bootstrap->run()
+#6 /vagrant/cms2cms/sport/public/index.php(3): Application::run()
+#7 {main}
+2016-04-19T16:38:34+00:00 CRIT (2): array (
+  'controller' => 'index',
+  'action' => 'index',
+  'module' => 'default',
+)
+2016-04-19T16:40:02+00:00 CRIT (2): Application error
+2016-04-19T16:40:02+00:00 CRIT (2): No entry is registered for key 'config'
+2016-04-19T16:40:02+00:00 CRIT (2): #0 /vagrant/cms2cms/sport/application/modules/default/controllers/IndexController.php(8): Zend_Registry::get('config')
+#1 /vagrant/cms2cms/sport/library/Zend/Controller/Action.php(516): IndexController->indexAction()
+#2 /vagrant/cms2cms/sport/library/Zend/Controller/Dispatcher/Standard.php(308): Zend_Controller_Action->dispatch('indexAction')
+#3 /vagrant/cms2cms/sport/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#4 /vagrant/cms2cms/sport/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#5 /vagrant/cms2cms/sport/init.php(34): Zend_Application_Bootstrap_Bootstrap->run()
+#6 /vagrant/cms2cms/sport/public/index.php(3): Application::run()
+#7 {main}
+2016-04-19T16:40:02+00:00 CRIT (2): array (
+  'controller' => 'index',
+  'action' => 'index',
+  'module' => 'default',
+)
+2016-04-19T16:54:10+00:00 CRIT (2): Application error
+2016-04-19T16:54:10+00:00 CRIT (2): No entry is registered for key 'db'
+2016-04-19T16:54:10+00:00 CRIT (2): #0 /vagrant/cms2cms/sport/application/modules/default/controllers/IndexController.php(8): Zend_Registry::get('db')
+#1 /vagrant/cms2cms/sport/library/Zend/Controller/Action.php(516): IndexController->indexAction()
+#2 /vagrant/cms2cms/sport/library/Zend/Controller/Dispatcher/Standard.php(308): Zend_Controller_Action->dispatch('indexAction')
+#3 /vagrant/cms2cms/sport/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#4 /vagrant/cms2cms/sport/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#5 /vagrant/cms2cms/sport/init.php(34): Zend_Application_Bootstrap_Bootstrap->run()
+#6 /vagrant/cms2cms/sport/public/index.php(3): Application::run()
+#7 {main}
+2016-04-19T16:54:10+00:00 CRIT (2): array (
+  'controller' => 'index',
+  'action' => 'index',
+  'module' => 'default',
+)
+2016-04-19T18:58:41+00:00 NOTICE (5): Page not found
+2016-04-19T18:58:42+00:00 NOTICE (5): Invalid controller specified (favicon.ico)
+2016-04-19T18:58:42+00:00 NOTICE (5): #0 /vagrant/cms2cms/sport/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#1 /vagrant/cms2cms/sport/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#2 /vagrant/cms2cms/sport/init.php(34): Zend_Application_Bootstrap_Bootstrap->run()
+#3 /vagrant/cms2cms/sport/public/index.php(3): Application::run()
+#4 {main}
+2016-04-19T18:58:42+00:00 NOTICE (5): array (
+  'controller' => 'favicon.ico',
+  'action' => 'index',
+  'module' => 'default',
+)

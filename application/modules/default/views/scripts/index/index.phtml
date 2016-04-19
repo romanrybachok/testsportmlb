@@ -1,1 +1,16 @@
-<p>Hello World</p>
+<table>
+    <tr>
+        <td>Date</td>
+        <td>Home team</td>
+        <td>Guest team</td>
+        <td>Stadium ID</td>
+    </tr>
+    <?php foreach($this->mlbs as $mlb){?>
+    <tr>
+        <td><?php echo $mlb["plays"]?></td>
+        <td><?php echo $mlb["home"]?></td>
+        <td><?php echo $mlb["guest"]?></td>
+        <td><?php echo $mlb["stadium"]?></td>
+    </tr>
+    <?php } ?>
+</table>
